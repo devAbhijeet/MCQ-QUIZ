@@ -1,0 +1,29 @@
+{            
+	"questions":[ 
+		{ 
+			"question": "What is 1+1",
+			"choices"  : [1,2,3,4],
+			"answer"  : 2  
+		}, 
+		{
+			"question": "How much is 2*5",
+			"choices"  : [10,21,13,4],
+			"answer"  : 10  
+		},
+		{
+			"question": "What will be 10-5",
+			"choices"  : [11,2,3,5],
+			"answer"  : 5 
+		},
+		{
+			"question": "what is 12/4",
+			"choices"  : [31,2,3,44],
+			"answer"  : 3 
+		},
+		{
+			"question": "what is the 10%2",
+			"choices"  : [11,42,83,0],
+			"answer"  : 0                                          
+		} 
+	]
+} 
