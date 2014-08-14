@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	outline:0; 
+}
+body{
+	background: #D8D8D8;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #f7f7f7;  
+}                                                                                                                                                                                                                                                                                      
+.mcq{
+	position: relative;
+	display: block;
+	margin:50px auto;
+	width: 600px;
+	background-color: crimson; 
+	border-radius: 5px;
+	padding:10px;
+	border:5px solid #c51236;   
+}                                                                                                                      
+.quiz{
+	display: block;
+	padding:10px;  
+}
+.quiz h3{
+	position: relative;
+	background-color: #3a253e;
+	text-align: justify;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px; 
+}
+.quiz .output{
+	position: relative;
+	border: 3px dashed #C51236;
+	padding: 10px;
+	margin-bottom: 10px;                            
+}
+.output ul{
+	display: inline-block;
+	list-style: none;
+}
+.output .final li{
+	display: block;
+}
+.output h2{
+	border-radius:5px;
+	text-align: center;
+	padding: 10px;
+	font-size: 26px;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+.output p{
+	padding: 10px;
+	line-height: 30px;
+	font-size: 26px;
+	background: rgba(0,0,0,0.6);
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.output li{
+	display: inline-block;
+	margin: 5px;
+	font-size: 20px;
+	font-family: Garamond;
+	color: #f1f1f1;
+}
+li input[type=radio]{
+	border: 0;
+	outline: 0;
+	-webkit-appereance: none;
+	-moz-appereance: none;
+	-ms-appereance: none;
+	-o-appereance: none;
+	appereance: none;
+	padding:10px;
+	margin: 5px;
+}
+.button{
+	display: inline-block;
+	padding: 10px 5px;
+	border: 1px solid #444;
+	background-color: #cccccc;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 10px;
+	color: #444;
+	font-family: sans-serif;
+	font-weight: bold; 
+	border-radius: 5px; 
+	cursor: pointer;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.button:hover{
+	background-color: #444;
+	color: #fff;
+}
+.next{  
+	display: none; 
+} 
+#prev,#start{
+	display: none;
+}
+#start{
+	width:120px;
+}
+.error{
+	background-color: #DD3C10; 
+	FFEBE8 
+}
+.success{
+	background-color: #10DD3C;
+	#390
+}
+
