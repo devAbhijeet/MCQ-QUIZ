@@ -1,7 +1,7 @@
 MCQ-QUIZ
 ========
 
-How can you make a quiz competition in javascript 
+How to you make a quiz competition in javascript 
 
 The project consists of flexible MCQ's that can be extended for any number of questions
 
